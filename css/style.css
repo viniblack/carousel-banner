@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#modo-banner-secondary {
+  background: url("../img/banner2.png") no-repeat center;
+}
+
+.modo-banner-image {
+  width: 18rem;
+}
+
+.modo-banner-title {
+  font-size: 1.1rem;
+  font-weight: 800;
+  width: 17rem;
+}
+
+.modo-banner-button {
+  color: #0081C5;
+  font-weight: 500;
+  width: 17rem;
+}
+
+.modo-banner-text {
+  font-size: 1rem;
+  width: 17rem;
+  font-weight: 500;
+}
+
+
+
+@media (min-width: 768px) {
+
+  .modo-banner-image {
+    width: 15rem;
+    height: 12rem;
+  }
+
+  .modo-banner-title {
+    min-width: 17rem;
+    line-height: 1.5rem;
+  }
+
+  .modo-banner-text {
+    max-width: 17rem;
+  }
+
+  .modo-banner-button {
+
+    width: 10rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .modo-banner-image {
+    width: 25rem;
+    height: auto;
+
+  }
+
+  .modo-banner-title{
+    min-width: 25rem;
+    font-size: 1.7rem;
+    line-height: 1.5;
+  }
+
+  .modo-banner-text{
+    max-width: 27rem;
+    width: 27rem;
+    font-size: 1.3rem;
+    font-weight: 300;
+  }
+
+}
