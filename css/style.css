@@ -6,10 +6,12 @@ body {
 
 #modo-banner-primary {
   background: url("../img/banner1.png") no-repeat center;
+  background-size: cover;
 }
 
 #modo-banner-secondary {
   background: url("../img/banner2.png") no-repeat center;
+  background-size: cover;
 }
 
 .modo-banner-image {
@@ -24,6 +26,8 @@ body {
 
 .modo-banner-title-primary {
   font-size: 1rem;
+  color: #F7bc15;
+  line-height: 1.2 !important;
 }
 
 .modo-banner-button {
@@ -32,10 +36,20 @@ body {
   width: 17rem;
 }
 
+#btn-banner-primary {
+  background-color: #0081C5;
+
+}
+
+#btn-banner-secondary {
+  background-color: #F7bc15;
+  color: #0d0d25;
+}
+
 .modo-banner-text {
   font-size: 1rem;
   width: 17rem;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .modo-banner-text-primary {
@@ -97,7 +111,6 @@ body {
     max-width: 27rem;
     width: 27rem;
     font-size: 1.3rem;
-    font-weight: 300;
   }
 
   .modo-banner-text-primary {
