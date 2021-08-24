@@ -4,6 +4,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+#modo-banner-primary {
+  background: url("../img/banner1.png") no-repeat center;
+}
+
 #modo-banner-secondary {
   background: url("../img/banner2.png") no-repeat center;
 }
@@ -18,6 +22,10 @@ body {
   width: 17rem;
 }
 
+.modo-banner-title-primary {
+  font-size: 1rem;
+}
+
 .modo-banner-button {
   color: #0081C5;
   font-weight: 500;
@@ -30,10 +38,13 @@ body {
   font-weight: 500;
 }
 
+.modo-banner-text-primary {
+  font-size: .9rem;
+}
+
 
 
 @media (min-width: 768px) {
-
   .modo-banner-image {
     width: 15rem;
     height: 12rem;
@@ -44,8 +55,19 @@ body {
     line-height: 1.5rem;
   }
 
+  .modo-banner-title-primary {
+    min-width: 20rem;
+    font-size: 1.1rem;
+  }
+
   .modo-banner-text {
     max-width: 17rem;
+  }
+
+  .modo-banner-text-primary {
+    font-size: 1.1rem;
+    max-width: 19rem;
+    width: 19rem;
   }
 
   .modo-banner-button {
@@ -61,17 +83,26 @@ body {
 
   }
 
-  .modo-banner-title{
-    min-width: 25rem;
+  .modo-banner-title {
+    min-width: 26rem;
     font-size: 1.7rem;
     line-height: 1.5;
   }
 
-  .modo-banner-text{
+  .modo-banner-title-primary {
+    min-width: 29rem;
+  }
+
+  .modo-banner-text {
     max-width: 27rem;
     width: 27rem;
     font-size: 1.3rem;
     font-weight: 300;
+  }
+
+  .modo-banner-text-primary {
+    max-width: 29rem;
+    width: 29rem;
   }
 
 }
